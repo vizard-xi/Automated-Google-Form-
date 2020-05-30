@@ -58,7 +58,7 @@ def automation():
     form_comments = '//*[@id="mG61Hd"]/div/div/div[2]/div[5]/div/div[2]/div[1]/div[2]/textarea'
     
     #xpath for the form submission
-    #form_submit = '//*[@id="mG61Hd"]/div/div/div[3]/div[1]/div/div[2]/span'
+    form_submit = '//*[@id="mG61Hd"]/div/div/div[3]/div[1]/div/div[2]/span'
 
     #assigning the variable driver to the library and executing brower via the app directory
     driver = webdriver.Chrome(app_dir)
