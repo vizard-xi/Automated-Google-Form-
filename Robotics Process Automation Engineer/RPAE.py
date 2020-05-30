@@ -118,7 +118,7 @@ def automation():
     driver.find_element_by_xpath(form_comments).send_keys(details[5])
 
     #selecting the sumbit button via xpath and clicking on it
-    #driver.find_element_by_xpath(form_submit).click()
+    driver.find_element_by_xpath(form_submit).click()
     
     #waiting for 5 seconds for the DOM to load
     time.sleep(5)
