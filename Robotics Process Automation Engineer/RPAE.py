@@ -72,7 +72,7 @@ def automation():
     #using signin_alert xpath to find and click on the signin 
     driver.find_element_by_xpath(signin_alert).click()
     
-    #waiting for 5 seconds for the DOM to load
+    #waiting for 3 seconds for the DOM to load
     time.sleep(3)
 
     #selecting email input via xpath and inputing details/text(email)
@@ -81,7 +81,7 @@ def automation():
     #selecting next button and clicking on it
     driver.find_element_by_xpath(next_submit).click()
 
-    #waiting for 5 seconds for the DOM to load
+    #waiting for 3 seconds for the DOM to load
     time.sleep(3)
 
     #selecting password input via xpath and inputing details/text(password)
@@ -90,7 +90,7 @@ def automation():
     #selecting  login/submit button and clicking on it
     driver.find_element_by_xpath(login_submit).click()
 
-    #waiting for 5 seconds for the DOM to load
+    #waiting for 3 seconds for the DOM to load
     time.sleep(3)
 
     #selecting form_name input via xpath and inputing details/text(name)
